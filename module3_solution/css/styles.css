@@ -1,0 +1,38 @@
+/*
+Desktop mockup illustration should correspond to Bootstrap md-based classes
+Tablet mockup illustration should correspond to Bootstrap sm-based classes
+Mobile mockup illustration should correspond to Bootstrap xs-based classes
+*/
+ body {
+   padding-top: 70px;
+   font-family: 'Raleway', sans-serif;
+ }
+ h1, h2 {
+   font-family: 'Satisfy', cursive;
+ }
+
+ section {
+   background-color: #D3D3F9;
+   padding-bottom: 15px;
+ }
+
+.navbar-header button.navbar-toggle  {
+  clear: both;
+}
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+
+}
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+
+}
